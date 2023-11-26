@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+	<title>main window</title>
+	<link href="./css/settingsStyle.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="titlebar">设置</div>
+	<div class="container">
+	<textarea id="input" rows="10" cols="50" wrap="soft" placeholder="请在此处填入学生列表"></textarea>
+	<div class="btncontainer">
+	<button id="confirm" disabled>确认</button>
+	<button id="cancel">取消</button>
+	</div>
+	</div>
+	<div class="infoContainer">Copyright (c) 2023 Wit Wang</div>
+</body>
+<script src="./js/settingsRenderer.js"></script>
+
+</html>

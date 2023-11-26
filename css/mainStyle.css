@@ -1,0 +1,179 @@
+/*mainStyle.css*/
+html,
+body {
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.titlebar {
+    display: flow;
+    align-self: auto;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: #ddd;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+#titlename{
+    color: #ddd;
+    user-select: none;
+    -webkit-user-select: none;
+    text-align: center;
+}
+
+#close, #minimize{
+    position: absolute;
+    top:10px;
+    width: 20px;
+    height: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-app-region: none;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    text-align: center;
+    color: #070707;
+}
+#close:hover, #minimize:hover{
+    background-color: #bbb;
+}
+#close:active, #minimize:active{
+    background-color: #777;
+}
+
+#close{
+    right: 10px;
+}
+#minimize{
+    right: 35px;
+}
+
+.container {
+    align-self: center;
+    padding: 20px;
+}
+
+.studentName {
+    background-color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    color: #434343;
+    font-size: 24px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    box-shadow: inset 0 0 5px #000;
+}
+
+#s1 {
+    color: #000;
+    font-size: small;
+    font-weight: lighter;
+    width: 65%;
+    height: 10%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#s2 {
+    font-size: medium;
+    font-weight: normal;
+    width: 70%;
+    height: 13%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#s3 {
+    font-size: large;
+    font-weight: bold;
+    width: 75%;
+    height: 16%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#s4 {
+    font-size: 48px;
+    font-weight: bolder;
+    width: 80%;
+    padding: 10px;
+    height: 20%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
+}
+
+#btn {
+    background-color: #fff;
+    border: 1px solid #070707;
+    border-radius: 15px;
+    color: #070707;
+    font-size: 24px;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    box-shadow: inset 0 0 5px #070707;
+    margin-top: 40px;
+}
+
+#btn:hover {
+    background-color: #ddd;
+    color: #070707;
+}
+
+#btn:active {
+    background-color: lightgray;
+    color: #070707;
+}
+
+
+#settings {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 30px;
+    text-align: center;
+    color: #070707;
+    font-size: 12px;
+    padding: 10px;
+    height: 56px;
+    width: 64px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    box-shadow: inset 0 0 5px #000;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+#settings:hover {
+    background-color: lightgray;
+    color: #070707;
+}
+
+#settings:active {
+    background-color: grey;
+    color: #000;
+}
+
+b {
+    text-align: center;
+}

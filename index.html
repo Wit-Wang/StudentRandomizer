@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP -->
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+	<title>main window</title>
+	<link href="./css/mainStyle.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="titlebar"><a id = "titlename">随机抽取</a><button id = "minimize">-</button><button id="close">x</button></div>
+	<div class="container">
+	<a class="studentName" id = "s1">student1</a>
+	<a class="studentName" id = "s2">student2</a>
+	<a class="studentName" id = "s3">student3</a>
+	<a class="studentName" id = "s4">student4</a>
+	<a class="studentName" id = "s3">student5</a>
+	<a class="studentName" id = "s2">student6</a>
+	<a class="studentName" id = "s1">student7</a>
+	<b> </b>
+	<button id="btn">开始</button>
+	<button id="settings">人数</button>
+	</div>
+</body>
+<script src="./js/renderer.js"></script>
+
+</html>

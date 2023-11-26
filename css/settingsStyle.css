@@ -1,0 +1,94 @@
+/*settingsStyle.css*/
+html, body {
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.titlebar {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: #ddd;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.container {
+    align-self: center;
+    width: 100%;
+    padding: 0px;
+    justify-content: center;
+}
+
+.btncontainer {
+    display: flex;
+    align-self: center;
+    padding: 0px;
+    justify-content: center;
+}
+
+textarea {
+    background-color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    color: #434343;
+    font-size: 24px;
+    padding: 10px;
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    box-shadow: inset 0 0 5px #000;
+    margin-top: 20px;
+    white-space: pre-wrap;
+    resize: none;
+  }
+
+button {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 50px;
+    color: #070707;
+    font-size: 24px;
+    padding: 10px;
+    width: 30%;
+    align-items: center;
+    margin: 0 10px;
+    display: block;
+    text-align: center;
+    box-shadow: inset 0 0 5px #000;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: lightgray;
+    color: #070707;
+}
+
+button:active {
+    background-color: grey;
+    color: #000;
+}
+
+button:disabled {
+    background-color: #ddd;
+    color: white;
+    border: 1px solid lightgray;
+    cursor: not-allowed;
+}
+
+.infoContainer {
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    width: 100%;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    color: #ddd;
+    user-select: none;
+    -webkit-user-select: none;
+}
